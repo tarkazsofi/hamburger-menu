@@ -26,21 +26,24 @@ body {
   height: 10%;
   background-color: black;
   position: absolute;
+  transition: transform 250ms, opacity 250ms;
 }
 .hamburger > div:nth-child(1) {
   transform: rotate(0) translateY(-250%);
 }
 .hamburger > div:nth-child(2) {
+  transform: rotate(0);
 }
 .hamburger > div:nth-child(3) {
   transform: rotate(0) translateY(250%);
 }
 .hamburger:hover > div:nth-child(1) {
-  transform: rotate(45deg) translateY(0);
+  transform: rotate(765deg) translateY(0);
 }
 .hamburger:hover > div:nth-child(2) {
+  transform: rotate(720deg);
   opacity: 0;
 }
 .hamburger:hover > div:nth-child(3) {
-  transform: rotate(-45deg) translateY(0);
+  transform: rotate(675deg) translateY(0);
 }
