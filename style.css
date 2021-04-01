@@ -35,3 +35,12 @@ body {
 .hamburger > div:nth-child(3) {
   transform: rotate(0) translateY(250%);
 }
+.hamburger:hover > div:nth-child(1) {
+  transform: rotate(45deg) translateY(0);
+}
+.hamburger:hover > div:nth-child(2) {
+  opacity: 0;
+}
+.hamburger:hover > div:nth-child(3) {
+  transform: rotate(-45deg) translateY(0);
+}
