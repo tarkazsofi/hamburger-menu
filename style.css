@@ -1,0 +1,29 @@
+html,
+body {
+  height: 100%;
+}
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.hamburger {
+  width: 80vmin;
+  height: 80vmin;
+  border: 1px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.hamburger > div {
+  width: 80%;
+  height: 10%;
+  background-color: black;
+  position: absolute;
+}
